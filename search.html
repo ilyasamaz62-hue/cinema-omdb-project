@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche films</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-film"></i>
+                <h1>Cinéma du Village</h1>
+            </div>
+            <nav>
+                <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+                <a href="search.html" class="active"><i class="fas fa-search"></i> Recherche</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>🔍 Rechercher un film</h2>
+        <p>Tapez pour rechercher en temps réel</p>
+
+        <!-- Barre recherche -->
+        <div class="search-container">
+            <div class="search-box">
+                <i class="fas fa-search search-icon"></i>
+                <input 
+                    type="text" 
+                    id="search-input" 
+                    placeholder="Entrez un titre de film..."
+                    autocomplete="off"
+                >
+            </div>
+        </div>
+
+        <!-- Résultats -->
+        <div id="search-results">
+            <!-- Résultats ici -->
+        </div>
+
+        <!-- Bouton plus -->
+        <div style="text-align: center;">
+            <button id="more-btn" class="btn-load-more" style="display: none;">
+                <i class="fas fa-arrow-down"></i> Plus de résultats
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Projet étudiant - API OMDb</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

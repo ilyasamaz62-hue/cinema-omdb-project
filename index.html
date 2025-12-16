@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinéma - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-film"></i>
+                <h1>Cinéma du Village</h1>
+            </div>
+            <nav>
+                <a href="index.html" class="active"><i class="fas fa-home"></i> Accueil</a>
+                <a href="search.html"><i class="fas fa-search"></i> Recherche</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h2>🎬 Bienvenue au Cinéma</h2>
+            <p>Découvrez les films du moment et recherchez vos films préférés</p>
+            <a href="search.html" class="btn-hero">
+                <i class="fas fa-search"></i> Rechercher un film
+            </a>
+        </div>
+    </section>
+
+    <!-- Films -->
+    <main class="container">
+        <h2>🔥 Films tendance</h2>
+        <p>Les films populaires cette semaine</p>
+        
+        <div class="movies-grid" id="movies-container">
+            <!-- Films ici -->
+        </div>
+
+        <button id="load-more-btn" class="btn-load-more">
+            <i class="fas fa-plus"></i> Charger plus (2024)
+        </button>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Projet étudiant - API OMDb</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>
