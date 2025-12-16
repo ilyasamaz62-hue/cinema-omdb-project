@@ -48,7 +48,7 @@ cinema-omdb-project/
 - Git & GitHub
 
  Auteur
-Ilyass - Projet étudiant
+ILYASS DRYEF - Projet étudiant
 
-## 📄 Licence
-Projet éducatif - Libre d'utilisation" > README.md
+
+
