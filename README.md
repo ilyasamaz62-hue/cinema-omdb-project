@@ -1,5 +1,5 @@
 
- Cinéma du Village - Projet API OMDb
+ Cinéma du Village - 
 
  Description :
 Projet étudiant de site web cinéma .
@@ -49,6 +49,7 @@ cinema-omdb-project/
 
  Auteur
 ILYASS DRYEF - Projet étudiant
+
 
 
 
